@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <title>Hospital page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    <title> insert</title>
+  </head>
+
+
+<body>
+<style>
+  
+  #middle{
+    text-align: center;
+  }
+    .column {
+        padding-left: 10px;
+        padding-right: 10px;
+        column-gap: 100px;
+        float: left;
+        width: 20%;
+      }
+          .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+          .full-footer{
+        background-color: #192a56;
+        width: 100%;
+        bottom: 0;
+        }
+      #topheader{
+    border-bottom: 1px solid silver;
+    }
+    #topheader a{
+        color: #130f40;
+        font-weight: 600;
+        font-size: 0.89rem;
+      padding: 0;
+      box-sizing: border-box;
+    }
+      .top-footer p{
+        color: white;
+      }
+      .top-footer a{
+        color: white;
+        font-weight: 600;
+      }
+      .top-footer h3{
+        color: white;
+      }
+      .bottom-footer{
+        background-color: #192a56;
+      }
+      .bottom-footer p{
+        background-color: white;
+        text-align:center;
+      }
+       body{
+    font-family: montserrat;
+    }
+   /* Navbar container */
+      .navbar {
+        overflow: hidden;
+        background-color: black;
+        font-family: Arial;
+      }
+
+      /* Links inside the navbar */
+      .navbar a {
+        float: left;
+        display: block;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .navbar a:hover {
+        background-color: green;
+        color: white;
+      }
+      .navbar a.active{
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      /* The dropdown container */
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      /* Dropdown button */
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+      }
+
+      /* Add a red background color to navbar links on hover */
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: green;
+      }
+
+      /* Dropdown content (hidden by default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      /* Add a background color to dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+</style>
+
+<header>
+     <div class="p-1" id="topheader">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-right">
+            <a class="p-1" href="tel:+ 0123456789"> <i class="fa fa-phone"></i> + 0123456789</a>
+            <a class="p-1" href="mailto: abc@gmail.com"><i class="fa fa-envelope"></i>abc@gmail.com</a>
+            <a href="default" style="float: right"><i><b>Log Out</b></i></a>
+        </div>
+      </div>
+    </div>
+     </div>
+    <div class="navbar">
+      <a  href="default"> HOME</a>
+       <div class="dropdown">
+         <button class="dropbtn">LOGIN <i class="fa fa-caret-down"></i></button>
+             <div class="dropdown-content">
+                  <a href="adminlogin">ADMIN</a>
+                  <a href="managerlogin">MANAGER</a>
+                  <a href="stafflogin">STAFF</a>
+             </div>
+       </div>  
+      
+     
+          <a href="bloodbank"> BLOOD BANK</a>
+          <a href="blood">BLOOD</a>
+       </div>
+</header>
+    <hr>
+
+  
+      <div id="middle">
+         <div>
+           <h1>Error in data :(</h1>
+         
+            <img src="https://image.flaticon.com/icons/svg/2705/2705118.svg" alt="" width="150" height="150" >
+            <div class="alert alert-danger">
+              <strong>Warning</strong>
+              <h2>Check your details</h2>
+            </div>
+          </div> 
+      </div>
+    
+
+      <hr>
+<footer class="full-footer">
+  <div class="container top-footer">
+     <div class="row">
+       <div class="column">
+           <img class="img-fluid" src="https://www.ispecimen.com/wp-content/uploads/2016/01/blood-156063_960_720.png" height="100px" width="100px" alt="">
+           <p> “Your blood is replaceable. A life is not.” <br>
+            “Your little effort can give others second chance to live life.” <br>
+            “To give blood you need neither extra strength nor extra food, and you will save a life.”<a href="#">Read more....</a></p>
+          <a style="color: white" class="p-1" href="#" ><i class="fas fa-2x fa-envelope"></i></a>
+          <a style="color: white" class="p-1" href="#" ><i class="fab fa-2x fa-twitter-square"></i></a>
+          <a style="color: white" class="p-1" href="#" ><i class="fab  fa-2x fa-facebook-square"></i></a>
+          <a style="color: white" class="p-1" href="#" ><i class="fab fa-2x fa-instagram"></i></i></a>
+       </div>
+
+       <div class="column">
+        <h3>Important links</h3>
+       <a href="https://en.wikipedia.org/wiki/Blood_donation_in_India" ><i>Blood Donation</i></a><br>
+       <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6033128/"> <i>Soical awareness</i> </a><br>
+       <a href="https://www.brmsonline.com/blog/wellness/healthcare/2018/benefits-of-blood-donation"> <i>Health Benefits</i> </a><br>
+       <a href="https://www.redcrossblood.org/donate-blood/blood-donation-process/donation-process-overview.html"> <i>Blood Donatin Process</i> </a><br>
+    </div>
+      <div class="column ">
+         <h3>Our Services</h3>
+           <a href="#">Govt</a><br>
+           <a href="#">Our Camps</a><br>
+           <a href="#">Our Users</a><br>
+           <a href="#">Social Services</a><br>
+       </div>
+
+     <div class="column">
+          <h3>Contact Us</h3>
+          <a class="p-1" href="tel:+ 0123456789"> <i class="fas fa-phone"></i> + 0123456789</a><br>
+            <a class="p-1" href="mailto: abc@gmail.com"><i class="fas fa-envelope"></i>abc@gmail.com</a><br>
+
+            <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="" frameborder="0"></iframe>
+            </div>
+      </div>
+       </div>
+  </div>
+
+  <div class="container-fluid bottom-footer">
+      <div class="row">
+        <div class="col text-center">
+          <p>
+            Copyrights @ 2020 - All rights reserved
+          </p>
+        </div>
+      </div>
+  </div>
+</footer>
+     <script src="E:\proj\bootstrap\js\bootstrap.min.js" ></script>
+    <script src="E:\proj\bootstrap\css\bootstrap.min.css" ></script>
+    <script src="F:\proj\bootstrap\js\bootstrap.min.txt" ></script>
+  </body>
+</html>
