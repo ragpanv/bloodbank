@@ -38,7 +38,7 @@
 <img src="https://github.com/ragpanv/bloodbank/blob/master/screenshots/receiver.jpg?raw=true" width="350" height="350">
 
 ## registration page
-<img src="https://github.com/ragpanv/bloodbank/blob/master/screenshots/registration.jpg?raw=true" width="350" height="150">
+<img src="https://github.com/ragpanv/bloodbank/blob/master/screenshots/registration.jpg?raw=true" width="350" height="350">
 
 ## user login page
 <img src="https://github.com/ragpanv/bloodbank/blob/master/screenshots/use-login.jpg?raw=true" width="350" height="150">
